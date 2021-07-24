@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+nav li {
+  font-weight: var(--roboto-black);
+  text-transform: uppercase;
+  font-size: var(--nav-link-size);
+}
+
+nav ul {
+  list-style: none;
+
+  display: flex;
+}
+
+nav li + li {
+  margin-left: var(--nav-link-margin);
+}

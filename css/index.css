@@ -11,9 +11,28 @@
   --roboto-black: 900;
 }
 
+:root {
+  --light-green: #00e0d0;
+  --dark-blue: #4aa3cc;
+}
+
+:root {
+  --nav-link-size: 13px;
+}
+
+:root {
+  --nav-link-margin: 25px;
+  --header-top-margin: 15px;
+}
+
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: var(--content-width);
+  margin: 0 auto;
 }
