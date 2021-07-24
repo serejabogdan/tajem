@@ -4,6 +4,11 @@
   background-size: cover;
 }
 
+.about-us__content {
+  position: relative;
+  z-index: 10;
+}
+
 .header {
   display: flex;
   align-items: center;

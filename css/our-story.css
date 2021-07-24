@@ -1,6 +1,3 @@
-.our-story {
-}
-
 .our-story__content {
   padding: 70px 0;
   display: flex;
@@ -63,20 +60,4 @@
 
 .play-button img {
   margin-bottom: 34px;
-}
-
-.overlay {
-  position: relative;
-}
-
-.overlay::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-
-  background: linear-gradient(90deg, var(--overlay-blue), var(--overlay-purple));
-  opacity: 0.85;
 }
