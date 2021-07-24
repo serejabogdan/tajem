@@ -4,11 +4,6 @@
   background-size: cover;
 }
 
-.overlay {
-  background: linear-gradient(90deg, var(--overlay-blue), var(--overlay-purple));
-  opacity: 0.85;
-}
-
 .header {
   display: flex;
   align-items: center;

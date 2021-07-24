@@ -18,6 +18,8 @@
   --primary-color: #ffffff;
   --light-green: #00e0d0;
   --dark-blue: #4aa3cc;
+  --dark-gray: #413d4b;
+  --just-black: #000;
 
   --overlay-blue: #09052f;
   --overlay-purple: #311d5e;
@@ -27,6 +29,7 @@
   --nav-link-size: 13px;
   --text-size: 14px;
   --big-text-size: 16px;
+  --huge-text-size: 22px;
 }
 
 :root {
@@ -46,7 +49,13 @@
   margin: 0 auto;
 }
 
-h1 {
+.overlay {
+  background: linear-gradient(90deg, var(--overlay-blue), var(--overlay-purple));
+  opacity: 0.85;
+}
+
+h1,
+h2 {
   font-family: 'Playfair Display', serif;
 }
 
