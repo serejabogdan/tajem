@@ -1,22 +1,114 @@
+.about-us {
+  background-image: url('../assets/images/bg-about-us.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background: linear-gradient(90deg, var(--overlay-blue), var(--overlay-purple));
+  opacity: 0.85;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 15px;
+  padding-top: 15px;
+  margin-bottom: 150px;
 }
 
-nav li {
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
   font-weight: var(--roboto-black);
   text-transform: uppercase;
   font-size: var(--nav-link-size);
 }
 
-nav ul {
-  list-style: none;
+.nav__link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.nav__link:hover {
+  color: var(--light-green);
+}
 
+.nav__link--active {
+  color: var(--light-green);
+}
+
+.nav li + li {
+  margin-left: var(--nav-link-margin);
+}
+
+.carousel {
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+.carousel__slide {
+  max-width: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.slide__title,
+.slide__text {
+  color: var(--primary-color);
+}
+
+.slide__title {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.slide__separator {
+  background-color: var(--light-green);
+  margin-bottom: 28px;
+}
+
+.slide__text {
+  font-size: var(--text-size);
+  text-align: center;
+  font-weight: var(--text-weight-light);
+  line-height: 24px;
+  margin-bottom: 53px;
+}
+
+.slide__button {
+  border: 1px solid var(--light-green);
+  color: var(--light-green);
+  padding: 14px 15px;
+  border-radius: 2px;
+  font-weight: var(--text-weight-regular);
+  margin-bottom: 125px;
+  text-transform: uppercase;
+  font-size: var(--big-text-size);
+}
+
+.carousel__nav ul {
+  list-style: none;
   display: flex;
 }
 
-nav li + li {
-  margin-left: var(--nav-link-margin);
+.carousel__nav-link {
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 100%;
+}
+
+.carousel__nav-link:hover,
+.carousel__nav-link--active {
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
+}
+
+.carousel__nav li + li {
+  margin-left: 5px;
 }

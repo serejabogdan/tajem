@@ -10,24 +10,45 @@
   </head>
   <body>
     <section class="about-us">
-      <div class="wrapper">
-        <header class="header">
-          <div class="logo">
-            <img src="./assets/images/logo.png" alt="logo of Tajam" />
-          </div>
+      <div class="overlay">
+        <div class="wrapper">
+          <header class="header">
+            <div class="logo">
+              <img src="./assets/images/logo.png" alt="logo of Tajam" />
+            </div>
 
-          <nav class="nav">
-            <ul>
-              <li>home</li>
-              <li>about</li>
-              <li>expertice</li>
-              <li>teams</li>
-              <li>works</li>
-              <li>people say</li>
-              <li>contact</li>
-            </ul>
-          </nav>
-        </header>
+            <nav class="nav">
+              <ul>
+                <li><a class="nav__link nav__link--active" href="#">home</a></li>
+                <li><a class="nav__link" href="#">about</a></li>
+                <li><a class="nav__link" href="#">expertice</a></li>
+                <li><a class="nav__link" href="#">teams</a></li>
+                <li><a class="nav__link" href="#">works</a></li>
+                <li><a class="nav__link" href="#">people say</a></li>
+                <li><a class="nav__link" href="#">contact</a></li>
+              </ul>
+            </nav>
+          </header>
+          <div class="carousel">
+            <div class="carousel__slide slide">
+              <h1 class="slide__title">We Are Awesome Creative Agency</h1>
+              <div class="slide__separator separator"></div>
+              <div class="slide__text">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+              </div>
+              <button class="slide__button">Learn more</button>
+              <div class="carousel__nav">
+                <ul>
+                  <li><button class="carousel__nav-link carousel__nav-link--active"></button></li>
+                  <li><button class="carousel__nav-link"></button></li>
+                  <li><button class="carousel__nav-link"></button></li>
+                  <li><button class="carousel__nav-link"></button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

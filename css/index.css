@@ -1,28 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 :root {
   --content-width: 940px;
 }
 
 :root {
-  --roboto-thin: 100;
-  --roboto-light: 300;
-  --roboto-regular: 400;
-  --roboto-black: 900;
+  --text-weight-thin: 100;
+  --text-weight-light: 300;
+  --text-weight-regular: 400;
+  --text-weight-bold: 700;
+  --text-weight-black: 900;
 }
 
 :root {
+  --primary-color: #ffffff;
   --light-green: #00e0d0;
   --dark-blue: #4aa3cc;
+
+  --overlay-blue: #09052f;
+  --overlay-purple: #311d5e;
 }
 
 :root {
   --nav-link-size: 13px;
+  --text-size: 14px;
+  --big-text-size: 16px;
 }
 
 :root {
   --nav-link-margin: 25px;
-  --header-top-margin: 15px;
+  --header-top-padding: 15px;
 }
 
 * {
@@ -35,4 +44,19 @@
 .wrapper {
   max-width: var(--content-width);
   margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  font-family: 'Hammersmith One', sans-serif;
+  outline: none;
+  background: 0;
+}
+
+.separator {
+  width: 50px;
+  height: 1px;
 }
