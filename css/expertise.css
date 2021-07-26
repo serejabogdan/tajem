@@ -12,11 +12,13 @@
 .expertise__title {
   color: var(--dark-gray);
   text-transform: uppercase;
-  font-weight: var(--huge-text-size);
+  font-weight: var(--text-weight-bold);
+  font-size: var(--huge-text-size);
   margin-bottom: 16px;
 }
 
 .expertise__text {
+  font-family: 'Playfair Display', serif;
   font-size: var(--text-size);
   font-weight: var(--text-weight-regular);
   opacity: 0.75;
