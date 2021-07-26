@@ -19,14 +19,17 @@
   --light-green: #00e0d0;
   --dark-blue: #4aa3cc;
   --light-gray: #f9f9f9;
+  --light-gray-second: #fafafa;
   --dark-gray: #413d4b;
   --just-black: #000;
+  --border-color: #d7d7d9;
 
   --overlay-blue: #09052f;
   --overlay-purple: #311d5e;
 }
 
 :root {
+  --small-text-size: 13px;
   --nav-link-size: 13px;
   --text-size: 14px;
   --big-text-size: 16px;

@@ -1,0 +1,98 @@
+.our-team {
+  background-image: url('../assets/images/bg-meet-our-team.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-team__content {
+  padding: 70px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.our-team__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.our-team__title {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: var(--huge-text-size);
+  margin-bottom: 16px;
+}
+
+.our-team__text {
+  font-family: 'Playfair Display', serif;
+  color: var(--light-gray);
+  font-size: var(--text-size);
+  font-weight: var(--text-weight-regular);
+  margin-bottom: 16px;
+}
+
+.our-team__separator {
+  background-color: #fff;
+  opacity: 0.2;
+}
+
+.our-team__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.person__image {
+  display: flex;
+  flex-direction: column;
+}
+
+.person__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: rgba(215, 215, 217, 0.5);
+}
+
+.person__name {
+  color: var(--primary-color);
+  font-size: var(--text-size);
+  font-weight: var(--text-weight-black);
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.person__position {
+  font-size: var(--small-text-size);
+  font-weight: var(--text-weight-light);
+  color: var(--light-gray-second);
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.our-team__hiring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hiring__text {
+  font-weight: var(--text-weight-light);
+  color: #f3f3f3;
+  font-size: var(--text-size);
+  margin-bottom: 22px;
+}
+
+.hiring__button {
+  padding: 12px 15px;
+  color: var(--light-green);
+  border-radius: 2px;
+  border: 1px solid var(--light-green);
+  text-transform: uppercase;
+}
