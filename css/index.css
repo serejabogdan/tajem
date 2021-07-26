@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 :root {
@@ -18,6 +18,7 @@
   --primary-color: #ffffff;
   --light-green: #00e0d0;
   --dark-blue: #4aa3cc;
+  --light-gray: #f9f9f9;
   --dark-gray: #413d4b;
   --just-black: #000;
 
